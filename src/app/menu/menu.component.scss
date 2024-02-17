@@ -1,0 +1,126 @@
+.body-container {
+    margin: 1.5rem 1.5rem;
+    border-radius: 20px;
+
+    .featured-dishes,.main-menu{
+        background-color: black;
+        min-height: 400px;
+        margin-bottom: 1rem;
+    }
+    .title {
+        font-family: Great Vibes, serif;
+        color: #ffffff;
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    .horizontal-divider {
+        background-image: linear-gradient(to right, #ffffff, #000000);
+        height: 1px;
+    }
+
+    .specials-card {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .parent-card {
+        width: 300px;
+        min-height: 310px;
+    }
+
+    ::ng-deep .card-wrapper {
+        transition: background-color 0.3s;
+        width: 300px;
+        position: relative;
+        transition: width 0.3s;
+        &:hover {
+            width: 302px;
+        }
+        .card-overlay {
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            position: absolute;
+            z-index: 1;
+            transition: background 0.3s;
+            &:hover {
+                background: rgba(0,0,0,0.4);
+            }
+
+            .action-buttons {
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+                .quantity-display {
+                    font-size: 20px;
+                    background: rgba(0,0,0,0.4);
+                    color: #ffffff;
+                    border-radius: 30px;
+                    font-weight: bolder;
+                    button {
+                        font-weight: bolder;
+                    }
+                }
+            }
+    
+            &:hover .action-buttons {
+                opacity: 1;
+            }
+        
+        }
+    }
+
+    .style-card {
+        padding: 1rem;
+        width: 100%;
+        transition: width 0.3s;
+        background-color: #000000;
+        &:hover {
+            width: 302px;
+        }
+        .mat-mdc-card-header {
+            font-family: 'Great Vibes';
+            font-size: 25px;
+            background-color: black;
+            color: antiquewhite;
+            padding: 12px 0;
+        }
+        .mat-mdc-card-content {
+            padding: 0;
+        }
+        .card-content {
+            font-family: 'Great Vibes';
+            font-size: 18px;
+            background-color: black;
+            color: antiquewhite;
+            padding: 12px 0;
+            text-align: justify;
+        }
+    }
+
+    .regular-card {
+        color: #ffffff;
+        height: 300px;
+        width: 300px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        transition: width 0.3s ease-in-out, font-size 0.3s ease-in-out;
+        font-size: 35px;
+        cursor: pointer;
+        &:hover {
+            width: 302px;
+            height: 302px;
+            font-size: 37px;
+        }
+    }
+    .category-title {
+        font-family: 'Great Vibes';
+        font-weight: bold;
+        color: white;
+        padding: 12px 0;
+    }
+}

@@ -1,0 +1,83 @@
+$gold-color: #FFD700;
+
+.mat-mdc-dialog-title {
+    background: white;
+    font-family: 'Great Vibes';
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+.mat-mdc-dialog-content {
+    background: black;
+    color: white;
+    font-family: "Great Vibes";
+    font-size: 20px;
+    padding: 10px;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    .dish-details {
+        .dish {
+            &-title {
+            font-family: 'Great Vibes';
+            font-size: 25px;
+            margin: 10px;
+            }
+            &-price {
+                font-family: 'Roboto sans-serif';
+                font-size: 15px;
+                margin: 10px;
+            }
+            &-description {
+                font-family: 'Roboto sans-serif';
+                font-size: 15px;
+                margin: 10px;
+                max-width: 350px;
+            }
+        }
+    }
+    .action-buttons {
+        margin-left: auto;
+        .quantity-display {
+            display: flex;
+            font-family: "Roboto sans-serif";
+            &-number {
+                align-items: center;
+                display: flex;
+            }
+        }
+    }
+}
+
+.message-box {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gold;
+    border-radius: 10px;
+    @media screen and (max-width: 600px){
+        width: 300px;
+    }
+    @media screen and (max-width: 400px){
+        width: 200px;
+    }
+    div.success-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgb(2, 115, 2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.message-text {
+        margin: 15px;
+        font-size: 25px;
+    }
+}
