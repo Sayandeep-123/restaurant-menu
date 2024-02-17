@@ -1,5 +1,0 @@
-<div class="quantity-display" *ngIf="this.commonService.allItemsMap.get(item.id).isSelected">
-    <button mat-stroked-button [id]="item.id" color="accent" (click)="cartContentChange(item.id, true)">+</button>
-    <div class="quantity-display-number">{{this.commonService.allItemsMap.get(item.id).quantity}}</div>
-    <button mat-stroked-button [id]="item.id" color="accent" (click)="cartContentChange(item.id, false)">-</button>
-</div>
