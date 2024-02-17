@@ -97,7 +97,7 @@ const ALL_ITEMS = [
       "id": "101",
       "name": "Paneer Tikka in Skewers",
       "description": "Delectable Indian appetizer where marinated cubes of paneer are threaded onto skewers and grilled to perfection, offering a smoky and spicy culinary delight that tantalizes the senses with each savory bite.",
-      "image": "../../assets/dishe-image-1.jpeg",
+      "image": "assets/dishe-image-1.jpeg",
       "price": 12.99,
       "isSelected": false,
       "quantity": 0,
@@ -106,7 +106,7 @@ const ALL_ITEMS = [
       "id": "102",
       "name": "Paneer Tikka in Skewers",
       "description": "Delectable Indian appetizer where marinated cubes of paneer are threaded onto skewers and grilled to perfection, offering a smoky and spicy culinary delight that tantalizes the senses with each savory bite.",
-      "image": "../../assets/dish-image-2.jpeg",
+      "image": "assets/dish-image-2.jpeg",
       "price": 11.99,
       "isSelected": false,
       "quantity": 0,
@@ -115,7 +115,7 @@ const ALL_ITEMS = [
       "id": "103",
       "name": "Paneer Tikka in Skewers",
       "description": "Delectable Indian appetizer where marinated cubes of paneer are threaded onto skewers and grilled to perfection, offering a smoky and spicy culinary delight that tantalizes the senses with each savory bite.",
-      "image": "../../assets/dish-image-3.jpeg",
+      "image": "assets/dish-image-3.jpeg",
       "price": 10.99,
       "isSelected": false,
       "quantity": 0,
@@ -124,7 +124,7 @@ const ALL_ITEMS = [
       "id": "104",
       "name": "Paneer Tikka in Skewers",
       "description": "Delectable Indian appetizer where marinated cubes of paneer are threaded onto skewers and grilled to perfection, offering a smoky and spicy culinary delight that tantalizes the senses with each savory bite.",
-      "image": "../../assets/dish-image-4.jpeg",
+      "image": "assets/dish-image-4.jpeg",
       "price": 9.99,
       "isSelected": false,
       "quantity": 0,
@@ -196,28 +196,28 @@ const ALL_ITEMS = [
     {
       "id":"C1",
       "name":"Indian",
-      "image": "../../assets/cuisine-image-1.jpeg",
+      "image": "assets/cuisine-image-1.jpeg",
     }
     ,
     {
       "id":"C2",
       "name":"Continental",
-      "image": "../../assets/cuisine-image-2.jpeg",
+      "image": "assets/cuisine-image-2.jpeg",
     },
     {
       "id":"C3",
       "name":"Italian",
-      "image": "../../assets/cuisine-image-3.jpeg",
+      "image": "assets/cuisine-image-3.jpeg",
     },
     {
       "id":"C4",
       "name":"Chinese",
-      "image": "../../assets/cuisine-image-4.jpeg",
+      "image": "assets/cuisine-image-4.jpeg",
     },
     {
       "id":"C5",
       "name":"Fast Food",
-      "image": "../../assets/cuisine-image-5.jpeg",
+      "image": "assets/cuisine-image-5.jpeg",
     }
   ]
 ];
